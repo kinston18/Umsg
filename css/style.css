@@ -11,30 +11,80 @@
     height: 90px;
 }
 body{
+    height: 120vh;
     background-image: linear-gradient(var(--primary-color),var(--secondary-color));
 }
-.container{
-    max-width: 955px;
-    background-color: red;
-    margin: auto;
-    height: 60vh;
-}
+    .container{
+        max-width: 955px;
+        background-color: red;
+        margin: auto;
+        height: 60vh;
+    }
 
-.message{
-background-color: var(--primary-color);
-width: 24%;
-padding: 10px;
-margin: 17px 3px;
-border:2px solid black ;
-border-radius: 20px;
-}
+    .message{
+    background-color: var(--primary-color);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 10px;
+    border:2px solid black ;
+    border-radius: 20px;
+    }
 
-.left{
-float: left;
-clear: both;
-}
-.right{
-float: right;
-clear: both;
-}
+    .left{
+    float: left;
+    clear: both;
+    }
+        .right{
+        float: right;
+        clear: both;
+    }
+
+
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 955px;
+        margin: 20px auto;
+        background-color: var(--secondary-color);
+        color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 3px #ccc;
+    }
+    
+    .toolbar {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: var(--primary-color);
+        border-bottom: 1px solid #ccc;
+      }
+      
+    button {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+    
+    textarea {
+        width: 95%;
+        height: 50px;
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: none;
+        background-color: black;
+        color: white;
+      }
+      
+      
+      
 
